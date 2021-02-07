@@ -8,6 +8,10 @@ body {
     // 左から指定フォントを検索し、ヒットした物を最初に使用する。
     font-family: 'Kameron', 'Noto Sans JP', sans-serif;
 }
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
 
 // ユーティリティクラス
 .font-sm {
@@ -40,6 +44,8 @@ body {
     margin: 0 auto;
     max-width: $contentMaxWidth;
 }
+
+
 
 #global-container {
     overflow: hidden;
